@@ -1,0 +1,5 @@
+The solution can be run using the run.py script. In order for it to run successfully the variable dir which is set at the beginning of the script must be set to an appropriate directory that contains the .sgm files unpacked from the reuters21578 dataset (the directory can contain other files with no effect). 
+
+In order that the script can run in a reasonable time frame pickle has been used to save the data sets and features at various stages. If you wish to run the script without using pickle and generate new feature sets and classifiers then the entirety of the pickle sections must be commented out and lines 15, 45, 50, 54 must be uncommented. The script is currently set to just run the final classifier, in the case that you wish to run all the classifiers built for the various different classifiers/feature pairs then lines 80, 82, 86, 88, 92, 94, 98 and 100 must be uncommented.
+
+If you experience any problems or need clarification beyond this document please email a.m.willbourn@warwick.ac.uk
